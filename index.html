@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Javier Abreu</h1>
+    <div class="foto1"> 
+     <img src="10b846f7-3103-44b1-a399-888022bc08cc.jpeg">
+    </div>
+    <p>Me interesan temas relacionados a la tecnología como pueden ser la programación, el análisis de datos,
+        el diseño web y las redes sociales. También me gusta mucho el fútbol, la música y la cocina.
+    </p>
+    <hr>
+    <!-- listas -->
+    <div id="listas">
+     <ul>
+        <li>
+            <p><a href="#expProf">Experiencia profesional</a>.</p>
+        </li>
+        <li>
+            <p><a href="#habyCon">Habilidades y conocimientos</a>.</p>
+        </li>
+        <li>
+            <p><a href="#educacion">Educación</a>.</p>
+        </li>
+        <li>
+            <p><a href="#perfSoc">Perfiles sociales</a>.</p>
+        </li>
+        <li>
+            <p><a href="#contactar">Contactar</a>.</p>
+        </li>
+     </ul>
+    </div>
+<hr>
+
+    <h2 id="#expProf">Experiencia profesional</h2>
+        <p>Estoy buscando mi primer experiencia profesional como desarrolador web!</p>
+    
+
+
+    <hr>
+
+    <h2 id="habyCon">Habilidades y conocimientos</h2>
+    <ul>
+        <li>
+            <p><strong>Desarrollo web:</strong> HTML5, CSS3, Javascript</p>
+        </li>
+
+    </ul>
+
+    <hr>
+
+    <h2 id="educacion">Educación</h2>
+
+ <!-- Tablas --> 
+
+    <div id="tablas">
+        <table>
+            <tr>
+                <th>
+                    <caption><strong>Titulo</strong></caption>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <p>Desarrollo Web</p>
+                </td>
+            </tr>
+            
+        
+        </table>
+        
+        <table>
+                <th>
+                <caption><strong>Entidad</strong></caption>
+                </th>
+                
+                <tr>
+                    <td>
+                        <p>Plan Ceibal (Jóvenes a Programar)</p>
+                    </td>
+                </tr>
+                
+        </table>
+        
+        <table>
+            <th>
+                <caption><strong>Promoción</strong></caption>
+            </th>
+            <tr>
+                <td>
+                    <p>2023</p>
+                </td>
+            </tr>
+            
+        </table>
+
+
+    </div>
+
+    <div class="idiomas">
+        <p><strong>Idiomas:</strong> Inglés nivel intermedio - Portugués nivel profundización</p> 
+    </div>
+    <hr>
+
+    <h2 id="perfSoc">Perfiles Sociales</h2>
+    <p>También me podes encontrar en:</p>
+    <ul>
+        <li>
+            <p><a href="#nomb">Javier Abreu</a>.</p>
+        </li>
+        <li>
+            <p><a href="#git">Github</a>.</p>
+        </li>
+        <li>
+            <p><a href="#twit">Twitter</a>.</p>
+        </li>
+        <li>
+            <p><a href="#linke">Linkedin</a>.</p>
+        </li>
+        <li>
+            <p><a href="#fb">Facebook</a>.</p>
+        </li>
+        <li>
+            <p><a href="#ig">Instagram</a>.</p>
+        </li>
+    </ul>
+
+
+    <hr>
+
+    <!-- Formulario -->
+
+    <h2 id="contactar">Contacto</h2>
+    <form> <br>
+        <div>
+            <label for="descripcion">Para:</label>
+            <input type="text" id="descripcion" name="descripcion" required>
+        </div>
+
+        <br>
+
+        <div> <br>
+            <label for="tematica" value="Elige un tema">Tema:</label>
+            <select id="tematica" name="tematica" required>
+                <option value="Elegir Tema" selected disabled> --Elige un tema-- </option>
+                <option value="Consulta">Consulta</option>
+                <option value="Propuesta">Propuesta</option>
+                <option value="Reporte">Reporte</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+        </div> <br>
+
+        <div>
+            <label for="cuerpo">Cuerpo:</label>
+            <textarea id="cuerpo" name="cuerpo" required></textarea>
+        </div> <br>
+
+        <br> <input type="submit" Enviar>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.portfolio {
+    margin: 10px 50px 20px 0px;
+    display: inline-block;
+    }
+.portfolio a:hover {
+    opacity: 0.6;
+    }
+
+h1{
+    color: brown;
+    text-decoration: underline;
+}
+
+.foto1{
+    width: 100%, 
+    
+}
+
+#tablas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idiomas {
+    font-style: italic;
+    }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("office-desk-table-top-view-with-office-supplies-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#listas{
+    text-decoration: none;  
+}
+
